@@ -6,6 +6,7 @@
 
 }
 body {
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +15,9 @@ body {
 
 #cartao {
      background-image: url("imagens/6.jpeg");
-     width: 250px;
-     height: 180px;
+     width: 290px;
+     height: 190px;
      border-radius: 10px;
+     margin-top: 80px;
 
 }
