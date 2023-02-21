@@ -5,10 +5,17 @@
     padding: 0px;
 
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 #cartao {
-     background-color: blue;
+     background-image: url("imagens/6.jpeg");
      width: 250px;
      height: 180px;
+     border-radius: 10px;
 
 }
