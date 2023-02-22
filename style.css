@@ -251,6 +251,11 @@ button{
 .chip{
    width: 30px;
    height: 25px;
+   top: 20px;
+}
+.visa{
+    width: 40px;
+
 }
 .cw{
    width: 70px;
@@ -264,6 +269,9 @@ button{
 .date{
    width: 100px;
 
+}
+.numero {
+   margin-top: 8px;
 }
 #num1{
     font-size: 1.3rem;
@@ -280,10 +288,11 @@ button{
 .titulo {
     width: 200px;
     height: 30px;
+    margin-top: 8px;
 
 }
 .mes{
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 }
