@@ -242,6 +242,7 @@ button{
    
 .form {
    width: 340px;
+   margin-top: -15px;
 }
 #cartao {
    width: 280px;
@@ -250,6 +251,7 @@ button{
 .chip{
    width: 30px;
    height: 25px;
+}
 .cw{
    width: 70px;
    height: 30px;
