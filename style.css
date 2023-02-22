@@ -247,8 +247,16 @@ button{
    width: 280px;
    height: 120px;
 }
-.form input {
-   
+.cw{
+   width: 70px;
+
+}
+.cardnumber{
+   margin-top: 10px;
+
+}
+.date{
+   width: 100px;
 
 }
 
