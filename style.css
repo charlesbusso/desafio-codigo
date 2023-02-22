@@ -251,11 +251,11 @@ button{
 .chip{
    width: 30px;
    height: 25px;
-   top: 20px;
+   top: 15px;
 }
 .visa{
     width: 40px;
-
+    top: -10px;
 }
 .cw{
    width: 70px;
@@ -287,12 +287,15 @@ button{
 }
 .titulo {
     width: 200px;
-    height: 30px;
-    margin-top: 8px;
+    height: 40px;
+    margin-top: 5px;
 
 }
 .mes{
     margin-top: 2px;
+}
+#nome{
+    font-size: 1rem;
 }
 
 }
