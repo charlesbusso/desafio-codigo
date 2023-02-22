@@ -259,5 +259,25 @@ button{
    width: 100px;
 
 }
+#num1{
+    font-size: 1.3rem;
+}
+#num2{
+   font-size: 1.3rem;
+}
+#num3{
+    font-size: 1.3rem;
+}
+#num4{
+    font-size: 1.3rem;
+}
+.titulo {
+    width: 200px;
+    height: 30px;
+
+}
+.mes{
+    margin-top: 5px;
+}
 
 }
