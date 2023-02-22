@@ -19,10 +19,11 @@ body {
      width: 350px;
      height: 180px;
      border-radius: 10px;
-     margin-top: 80px;
+     margin-top: 10px;
      padding-top: 20px;
      display: flex;
      flex-direction: column;
+     
      
 }
 .menu{
@@ -123,13 +124,15 @@ h2{
 .form{
     flex-direction: column;
     width: 550px;
-    height: 500px;
+    height: 450px;
     margin-top: -30px;
     display: flex;
     justify-content: space-around;
     background-color: white;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
+    
 
     
     
@@ -174,10 +177,8 @@ h2{
     flex-direction: column;
     margin: 0px;
     width: 80%;
-    margin-right: 10px;
+    margin-right: 5%;
     
-    
-
 }
 .cardnumber label{
     text-align: left;
@@ -187,6 +188,7 @@ h2{
     display: flex;
     justify-content: space-between;
     border: 1px solid rgba(157, 157, 192, 0.829);
+    border-radius: 5px;
 }
 .num input{
     border: none;
@@ -215,5 +217,17 @@ h2{
 .ano{
     margin-top: 15px;
     text-align: center;
+    display: flex;
+    align-items: center;
     
+}
+button{
+    width: 60%;
+    height: 50px;
+    background-color: blue;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(126, 126, 218, 0.829);
+    color: white;
+    font-size: 1.7rem;
 }
