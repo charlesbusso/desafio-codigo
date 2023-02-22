@@ -241,7 +241,15 @@ button{
 @media (max-width: 700px){
    
 .form {
-   width: 330px;
+   width: 340px;
+}
+#cartao {
+   width: 280px;
+   height: 120px;
+}
+.form input {
+   
+
 }
 
 }
