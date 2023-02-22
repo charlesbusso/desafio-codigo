@@ -135,7 +135,8 @@ h2{
     
 }
 .form input{
-    
+    justify-content: space-around;
+    display: flex;
     width: 80%;
     height: 50px;
     border-radius: 5px;
@@ -145,4 +146,74 @@ h2{
 }
 .form label{
 
+}
+.date{
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card label{
+    text-align: left;
+    justify-content: left;
+    
+    
+}
+.cardnumber{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 80%;
+    margin-right: 10px;
+    
+    
+
+}
+.cardnumber label{
+    text-align: left;
+    justify-content: left;
+}
+.num{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(157, 157, 192, 0.829);
+}
+.num input{
+    border: none;
+}
+.expirion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.cw{
+    width: 120px;
+    height: 45px;
+    border: 1px solid rgba(157, 157, 192, 0.829);
+    border-radius: 5px;
+}
+.cw p{
+    margin-bottom: 10px;
+}
+.cw1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+.ano{
+    margin-top: 15px;
+    text-align: center;
+    
 }
