@@ -245,10 +245,14 @@ button{
 }
 #cartao {
    width: 280px;
-   height: 120px;
+   height: 140px;
 }
+.chip{
+   width: 30px;
+   height: 25px;
 .cw{
    width: 70px;
+   height: 30px;
 
 }
 .cardnumber{
