@@ -13,21 +13,12 @@ let form = document.getElementById('form');
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-
-     
-
 });
 
-function cartao(){
-    let numAValue = numA.value;
-    
-    if(numAValue === ""){
-        msg1.innerHTML = 'AAAA';
-    }
-}
-cartao();
+function capturar(){
+  let capturando = "";
 
-
-window.addEventListener("load");
+    capturando = document.getElementById('numA').value; 
+    document.getElementById('num1').innerHTML = capturando;
 
 
