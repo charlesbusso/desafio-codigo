@@ -21,4 +21,4 @@ function capturar(){
     capturando = document.getElementById('numA').value; 
     document.getElementById('num1').innerHTML = capturando;
 
-
+}
