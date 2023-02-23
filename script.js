@@ -14,15 +14,20 @@ let form = document.getElementById('form');
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-     cartao();
+     
 
 });
+
 function cartao(){
+    let numAValue = numA.value;
     
-    if(numA === ""){
+    if(numAValue === ""){
         msg1.innerHTML = 'AAAA';
-    }else {(numA)}
+    }
 }
+cartao();
+
+
 window.addEventListener("load");
 
 
