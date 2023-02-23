@@ -1,4 +1,4 @@
-let msg1 = document.getElementById('num1');
+
 let num2 = document.getElementById('num2');
 let num3 = document.getElementById('num3');
 let num4 = document.getElementById('num4');
