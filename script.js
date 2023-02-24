@@ -1,10 +1,10 @@
 
 
 function capturar(){
-  let capturandoA = "";
-  let capturandoB = "";
-  let capturandoC = "";
-  let capturandoD = "";
+  let capturandoA;
+  let capturandoB;
+  let capturandoC;
+  let capturandoD;
   let capturandoE = "";
   let capturandoF = "";
 
