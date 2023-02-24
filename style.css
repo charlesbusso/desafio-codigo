@@ -172,11 +172,21 @@ h2{
     margin-left: 15%;
     margin-bottom: 5px;
     text-align: center;
+    
 }
 .card label{
     text-align: left;
     justify-content: left;
     
+}
+.card input{
+    cursor: pointer;
+    font-size: 1.6rem;
+    
+}
+.card input:hover{
+    background-color: blue;
+    color: white;
 }
 .cardnumber{
     display: flex;
@@ -197,13 +207,21 @@ h2{
     border: 1px solid rgba(157, 157, 192, 0.829);
     border-radius: 5px;
     text-align: center;
+    
+}
+.numA :hover{
+    
+    cursor: pointer;
 }
 .num input{
     border: none;
     text-align: center;
     height: 40px;
-    
-    
+    cursor: pointer; 
+}
+.num input:hover{
+    background-color: blue;
+    color: white;
 }
 .expirion{
     display: flex;
@@ -222,9 +240,9 @@ h2{
     
 }
 .cw1 p{
-   
+    margin-right: 25px;
     text-align: center;
-    margin-right: 15px;
+   
 }
 .cw1{
     display: flex;
@@ -269,6 +287,7 @@ footer i{
 }
 footer h3{
     font-size: 1.9rem;
+    color: blue;
 }
 @media (max-width: 700px){
    
@@ -325,7 +344,7 @@ footer h3{
     
 }
 .cw1 p{
-    margin-right: 20px;
+    margin-right: 65px;
 }
 .cardnumber{
    margin-top: 40px;
