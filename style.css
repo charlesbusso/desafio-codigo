@@ -53,17 +53,21 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    
 }
 #num1{
     width: 50px;
     font-size: 1.6rem;
     color: white;
+    text-align: center;
     
 }
 #num2{
     width: 50px;
     font-size: 1.6rem;
     color: white;
+    text-align: center;
+    
 }
 #num3{
     width: 50px;
@@ -295,7 +299,7 @@ footer i{
     width: 40px;
     position: absolute;
     top: 30px;
-    left: 64%;
+    left: 66%;
 }
 .cw{
    width: 70px;
@@ -304,6 +308,7 @@ footer i{
 
 }
 .cw1 input{
+    width: 50px;
     height: 35px;
     cursor: pointer;
 }
@@ -314,39 +319,46 @@ footer i{
 .date input{
    width: 80px;
    height: 35px;
-   margin-left: 20px;
+   margin-left: 40px;
    cursor: pointer;
 }
 .mes{
     margin-left: 30px;
+    margin-top: 2px;
 }
 .ano input{
     height: 35px;
     cursor: pointer;
     width: 80px;
+    margin-right: 20px;
+    
 }
 .expirion label{
-    margin-left: 30px;
+    margin-left: 40px;
     font-size: 0.8rem;
 }
 .numero {
-   margin-top: 8px;
+   margin-top: 20px;
 }
 #num1{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-top: 20px;
 }
 #num2{
-   font-size: 1.2rem;
+   font-size: 1.3rem;
+   margin-top: 20px;
 }
 #num3{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-top: 20px;
 }
 #num4{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-top: 20px;
 }
 .titulo {
     width: 190px;
-    height: 50px;
+    height: 40px;
     margin-top: 20px;
 
 }
@@ -354,9 +366,7 @@ h2{
     font-size: 0.4rem;
 
 }
-.mes{
-    margin-top: 2px;
-}
+
 #nome{
     font-size: 1rem;
 }
