@@ -22,5 +22,17 @@ function capturar(){
     document.getElementById('mes').innerHTML = capturandoE;
     document.getElementById('nome').innerHTML = capturandoF;
 
+    rotacao()
+
 }
+function rotacao(){
+   let girar = "";
+   let cartao = document.getElementById('cartao');
+   if(girar === ""){
+    cartao = 0;
+   }else if(girar == value){
+    cartao.style.rotate = "360";
+   }
+}
+window.addEventListener('click', rotacao);
 window.addEventListener("load", capturar);
