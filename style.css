@@ -296,6 +296,7 @@ footer h3{
    margin-top: -100px;
    justify-content: center;
    align-items: center;
+   display: flex;
    
 }
 .card input {
@@ -314,6 +315,9 @@ footer h3{
    width: 280px;
    height: 140px;
    top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .chip{
    width: 30px;
