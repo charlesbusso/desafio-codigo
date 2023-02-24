@@ -28,7 +28,7 @@ body {
      align-items: center;
      justify-content: center;
      z-index: 1;
-     box-shadow: black;
+     
      
 }
 .menu{
@@ -133,8 +133,8 @@ h2{
 .form{
     flex-direction: column;
     width: 550px;
-    height: 450px;
-    margin-top: -50px;
+    height: 400px;
+    margin-top: -80px;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -170,20 +170,17 @@ h2{
     width: 100%;
     justify-content: center;
     margin-left: 15%;
-    margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
 }
 .card label{
     text-align: left;
     justify-content: left;
-    margin-top: 5px;
     
 }
 .cardnumber{
     display: flex;
     flex-direction: column;
-    margin: 0px;
     width: 80%;
     margin-right: 5%;
     text-align: center;
@@ -192,7 +189,7 @@ h2{
 .cardnumber label{
     text-align: left;
     justify-content: left;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .num{
     display: flex;
@@ -211,24 +208,30 @@ h2{
 .expirion{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
-   
+    margin-bottom: 10px;
 }
+.expirion input{
+    margin: 8px 0px 0px 0px;
+}
+
 .cw{
     width: 50px;
     height: 45px;
     border: 1px solid rgba(157, 157, 192, 0.829);
     border-radius: 5px;
+    
 }
-.cw p{
+.cw1 p{
     margin-bottom: 10px;
+    text-align: center;
+    margin-right: 15px;
 }
 .cw1{
     display: flex;
     flex-direction: column;
-    margin-left: 8px;
     width: 120px;
 }
+
 .ano{
     margin-top: 15px;
     text-align: center;
@@ -240,7 +243,6 @@ button{
     width: 60%;
     height: 50px;
     background-color: blue;
-    margin-top: 40px;
     border-radius: 10px;
     border: 1px solid rgba(126, 126, 218, 0.829);
     color: white;
@@ -262,7 +264,8 @@ footer p{
 }
 footer i{
     margin-bottom: 15px;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
+    color: blue;
 }
 @media (max-width: 700px){
    
@@ -284,6 +287,7 @@ footer i{
     cursor: pointer;
     
 }
+
 #cartao {
    width: 280px;
    height: 140px;
@@ -300,12 +304,13 @@ footer i{
     width: 40px;
     position: absolute;
     top: 30px;
-    left: 66%;
+    left: 69%;
 }
 .cw{
    width: 70px;
    height: 35px;
-   margin-right: 20px;
+   margin-right: 10px;
+   
 
 }
 .cw1 input{
@@ -314,6 +319,10 @@ footer i{
     cursor: pointer;
     text-align: center;
     
+    
+}
+.cw1 p{
+    margin-right: 20px;
 }
 .cardnumber{
    margin-top: 40px;
@@ -369,7 +378,7 @@ footer i{
     margin-top: 20px;
 }
 .titulo {
-    width: 190px;
+    width: 180px;
     height: 40px;
     margin-top: 20px;
 
@@ -388,6 +397,10 @@ h2{
 .card label{
     font-size: 0.7rem;
 }
+button{
+    margin-top: 20px;
+}
+
 
 
 
