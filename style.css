@@ -319,18 +319,23 @@ footer h3{
    align-items: center;
    justify-content: center;
 }
+.menu{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 .chip{
    width: 30px;
    height: 25px;
-   position: absolute;
-   top: 18px;
+   top: -30px;
    padding-top: 5px;
 }
 .visa{
     width: 40px;
-    position: absolute;
     top: 30px;
-    left: 69%;
+    margin-left: 15px;
+    
 }
 .cw{
    width: 70px;
@@ -433,8 +438,4 @@ footer h3{
 footer p{
     margin-top: -10px;
 }
-
-
-
-
 }
