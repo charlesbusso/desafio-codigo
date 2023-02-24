@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
 });
 
 function capturar(){
-  let capturando = "";
+  var capturando = "";
 
     capturando = document.getElementById('numA').value; 
     document.getElementById('num1').innerHTML = capturando;
