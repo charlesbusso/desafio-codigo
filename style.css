@@ -43,6 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: absolute;
 }
 .chip{
    width: 40px;
