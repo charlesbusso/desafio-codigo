@@ -28,9 +28,13 @@ body {
      align-items: center;
      justify-content: center;
      z-index: 1;
-     transform: rotateY(180deg);
+     transform-style: preserve-3d;
+     transition: all .5s;
      
      
+}
+#front{
+    transform: rotateY(180deg);
 }
 .flip{
     transform: rotateY(180deg);
