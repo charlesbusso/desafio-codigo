@@ -7,6 +7,9 @@ function capturar(){
   let capturandoD;
   let capturandoE = "";
   let capturandoF = "";
+  let cartao = document.getElementById('cartao');
+
+
 
 
     capturandoA = document.getElementById('numA').value; 
