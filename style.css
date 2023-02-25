@@ -28,11 +28,14 @@ body {
      align-items: center;
      justify-content: center;
      z-index: 1;
-     /*transform: rotateZ(180deg) scaleX(-1);*/
+     transform: rotateY(180deg);
      
      
 }
-.menu{
+.flip{
+    transform: rotateY(180deg);
+}
+.face{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -320,12 +323,19 @@ footer h3{
    display: flex;
    align-items: center;
    justify-content: center;
+   
 }
-.menu{
+.face{
     margin-left: 15px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+#back{
+    background-image: url('imagens/7.jpeg');
+    background-repeat: no-repeat;
+
+
 }
 .chip{
    width: 30px;
