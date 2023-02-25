@@ -7,7 +7,7 @@ function capturar(){
   let capturandoD;
   let capturandoE = "";
   let capturandoF = "";
-  let cartao = document.getElementById('cartao');
+  let cartao = document.getElementById('girar');
 
 
 
@@ -37,5 +37,8 @@ function rotacao(){
     cartao.style.rotate = "360";
    }
 }
-window.addEventListener('click', rotacao);
+girar.addEventListener('click',(e) =>{
+  girar.clssList.toggle("flip")
+
+})
 window.addEventListener("load", capturar);
