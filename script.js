@@ -38,7 +38,7 @@ function rotacao(){
    }
 }
 cartao.addEventListener('click',(e) =>{
-  cartao.clssList.toggle("flip")
+  cartao.classList.toggle("flip")
 
 })
 window.addEventListener("load", capturar);
