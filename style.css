@@ -41,10 +41,16 @@ body {
 }
 .face{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     position: absolute;
-    
+    align-items: center;
+}
+.menu{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+
 }
 .chip{
    width: 40px;
