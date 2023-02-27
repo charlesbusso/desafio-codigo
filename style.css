@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 
 }
@@ -12,45 +12,62 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+   
+    
 }
+#card{
 
-#cartao {
-     background-image: url("imagens/fundo2.jpeg");
-     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all.5s;
+    transform-style: preserve-3d;
+    
+    
+ }
+ .face{
+     align-items: center;
+     display: flex;
+     justify-content: center;
      width: 350px;
      height: 180px;
-     border-radius: 10px;
-     margin-top: 10px;
-     padding-top: 20px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     z-index: 1;
-     transform-style: preserve-3d;
-     transition: all .5s;
      
      
-}
-#front{
+ }
+ #front{
     transform: rotateY(180deg);
-}
-.flip{
-    transform: rotateY(180deg);
-}
-.face{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    align-items: center;
-}
-.menu{
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
+    background-image: url('imagens/fundo2.jpeg');
+    
+ }
+ #back{
 
+   background-image: url('imagens/7.jpeg');
+   
+   
+ }
+ .flip{
+    transform: rotateY(180deg);
+ }
+
+ .diner{
+     width: 100px;
+     margin-right: 10px;
+ }  
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.diner{
+    width: 120px;
+    display: flex;
+    margin-top: 35%;
+    margin-left: 60%;
+}
+.senha{
+    width: 500px;
+    height: 10%;
+    background-color: white;
 }
 .chip{
    width: 40px;
@@ -328,27 +345,7 @@ footer h3{
     
 }
 
-#cartao {
-   width: 280px;
-   height: 140px;
-   top: 50px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
-}
-.face{
-    margin-left: 15px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-#back{
-    background-image: url('imagens/7.jpeg');
-    background-repeat: no-repeat;
 
-
-}
 .chip{
    width: 30px;
    height: 25px;
