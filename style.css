@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .5s ease;
+    transition: all .5s;
     transform-style: preserve-3d;
     z-index: 1;
     margin-top: 15%;
