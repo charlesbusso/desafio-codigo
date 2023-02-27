@@ -25,12 +25,12 @@ body {
     z-index: 1;
     margin-top: 15%;
     border-radius: 10px;
-    
+    flex-direction: column;
  }
  .face{
      align-items: center;
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      width: 350px;
      height: 180px;
      border-radius: 10px;
