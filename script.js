@@ -25,10 +25,10 @@ function capturar(){
     document.getElementById('mes').innerHTML = capturandoE;
     document.getElementById('nome').innerHTML = capturandoF;
 
-    rotacao()
+   
 
 }
-function rotacao(){
+/*function rotacao(){
    let girar = "";
    let cartao = document.getElementById('cartao');
    if(girar === ""){
@@ -36,7 +36,7 @@ function rotacao(){
    }else if(girar == value){
     cartao.style.rotate = "360";
    }
-}
+}*/
 cartao.addEventListener('click',(e) =>{
   cartao.classList.toggle("flip")
 
