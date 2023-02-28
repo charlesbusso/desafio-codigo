@@ -53,27 +53,11 @@ body {
     transform: rotateY(180deg);
  }
 
- .diner{
-     width: 100px;
-     margin-right: 10px;
- }  
-
 .menu{
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 15px;
-}
-.diner{
-    width: 80px;
-    display: flex;
-    margin-top: 35%;
-    margin-left: 60%;
-}
-.senha{
-    width: 500px;
-    height: 10%;
-    background-color: white;
 }
 .chip{
    width: 40px;
