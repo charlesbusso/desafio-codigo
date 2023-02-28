@@ -42,7 +42,7 @@ body {
     margin-left: 20px;
 }
 #card{
-    
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ body {
  }
  #back{
     backface-visibility: hidden;
-   background-image: url('imagens/7.jpeg');
+    background-image: url('imagens/7.jpeg');
    
    
  }
