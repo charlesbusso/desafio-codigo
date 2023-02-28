@@ -44,8 +44,8 @@ body {
 #card{
     
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
     transition: all 1.3s ease;
     transform-style: preserve-3d;
     z-index: 1;
