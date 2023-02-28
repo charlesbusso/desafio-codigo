@@ -49,7 +49,7 @@ body {
     transition: 1.3s;
     transform-style: preserve-3d;
     z-index: 1;
-   /* margin-top: 5%;*/
+    margin-top: 15%;
     border-radius: 10px;
     
  }
@@ -361,7 +361,7 @@ footer h3{
    
 .form {
    width: 350px;
-   margin-top: 200px;
+   margin-top: 150px;
    justify-content: center;
    align-items: center;
    display: flex;
