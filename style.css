@@ -49,7 +49,7 @@ body {
     transition: 1.3s;
     transform-style: preserve-3d;
     z-index: 1;
-    margin-top: 5%;
+   /* margin-top: 5%;*/
     border-radius: 10px;
     
  }
@@ -66,7 +66,8 @@ body {
  }
  #front{
     backface-visibility: hidden;
-    /*transform: rotateY(180deg);*/
+    transform: rotateY(180deg);
+
     background-image: url('imagens/fundo2.jpeg');
     position: absolute;
  }
@@ -74,7 +75,7 @@ body {
     backface-visibility: hidden;
     background-image: url('imagens/7.jpeg');
     position: absolute;
-    transform: rotateY(180deg);
+   /* transform: rotateY(180deg);*/
    
  }
  .flip{
@@ -368,7 +369,7 @@ footer h3{
    
 }
 #card{
-    
+    margin-top: 200px;
 }
 .card input {
     height: 35px;
