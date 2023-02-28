@@ -7,6 +7,7 @@ function capturar(){
   let capturandoD;
   let capturandoE = "";
   let capturandoF = "";
+  let capturandoG = "";
   
 
 
@@ -18,12 +19,14 @@ function capturar(){
     capturandoD = document.getElementById('numD').value;
     capturandoE = document.getElementById('ano').value;
     capturandoF = document.getElementById('name').value;
+    capturandoG = document.getElementById('cw2').value;
     document.getElementById('num1').innerHTML = capturandoA;
     document.getElementById('num2').innerHTML = capturandoB;
     document.getElementById('num3').innerHTML =capturandoC;
     document.getElementById('num4').innerHTML = capturandoD;
     document.getElementById('mes').innerHTML = capturandoE;
     document.getElementById('nome').innerHTML = capturandoF;
+    document.getElementById('senha').innerHTML = capturandoG;
 
    
 
@@ -37,9 +40,10 @@ function capturar(){
     cartao.style.rotate = "360";
    }
 }*/
-let card = document.querySelector("#card")
-  card.addEventListener('click',(e) =>{
-  card.classList.toggle("flip")
+let cardi = document.querySelector("#cw3");
+let cartao = document.getElementById('card')
+  cardi.addEventListener('click',(e) =>{
+  cartao.classList.toggle("flip");
 
 });
 window.addEventListener("load", capturar);
