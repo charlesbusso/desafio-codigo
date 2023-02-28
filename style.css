@@ -75,7 +75,7 @@ body {
     backface-visibility: hidden;
     background-image: url('imagens/7.jpeg');
     position: absolute;
-   /* transform: rotateY(180deg);*/
+    transform: rotateY(180deg);
    
  }
  .flip{
@@ -361,7 +361,7 @@ footer h3{
    
 .form {
    width: 350px;
-   margin-top: 150px;
+   margin-top: 100px;
    justify-content: center;
    align-items: center;
    display: flex;
@@ -369,7 +369,7 @@ footer h3{
    
 }
 #card{
-    margin-top: 200px;
+    margin-top: 260px;
 }
 .card input {
     height: 35px;
