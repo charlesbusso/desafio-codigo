@@ -42,7 +42,7 @@ body {
     margin-left: 20px;
 }
 #card{
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
