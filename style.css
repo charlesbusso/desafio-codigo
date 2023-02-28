@@ -16,11 +16,11 @@ body {
     
 }
 #card{
-    margin-right: 25%;
+    margin-right: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .5s ease;
+    transition: all .8s ease;
     transform-style: preserve-3d;
     z-index: 1;
     margin-top: 15%;
@@ -30,8 +30,8 @@ body {
      align-items: center;
      display: flex;
      justify-content: space-between;
-     width: 350px;
-     height: 180px;
+     width: 280px;
+     height: 190px;
      border-radius: 10px;
      flex-direction: column;
      
@@ -133,6 +133,8 @@ h2{
     margin-left: 10px;
     border-radius: 5px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
     
     
 }
