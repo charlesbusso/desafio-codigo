@@ -66,14 +66,15 @@ body {
  }
  #front{
     backface-visibility: hidden;
-    transform: rotateY(180deg);
+    /*transform: rotateY(180deg);*/
     background-image: url('imagens/fundo2.jpeg');
-    
+    position: absolute;
  }
  #back{
     backface-visibility: hidden;
     background-image: url('imagens/7.jpeg');
-   
+    position: absolute;
+    transform: rotateY(180deg);
    
  }
  .flip{
