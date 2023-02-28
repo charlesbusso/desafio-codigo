@@ -16,7 +16,7 @@ body {
     
 }
 #card{
-    margin-right: 45%;
+    margin-right: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,11 +337,11 @@ footer h3{
     
 }
 
-.back img{
+#back img{
      width: 80px;
 }
 .senha{
-     width: 100%;
+     width: 230px;
      height: 40px;
      background-color: white;
      color: black;
