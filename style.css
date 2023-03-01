@@ -7,7 +7,6 @@
 }
 
 body {
-    width: 100%;
     background-color: rgba(157, 157, 192, 0.829);
     display: flex;
     align-items: center;
@@ -23,33 +22,33 @@ body {
     color: black;
     margin-top: 23%;
     border-radius: 10px;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     display: flex;
-    color: blue;
     text-align: center;
-    
    
 
 }
 #senha p{
-    margin-left: 30px;
+    
+    
 }
 
 #back img{
     width: 120px;
     margin-bottom: 10px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 #card{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1.3s;
+    transition: all 1.9s ease;
     transform-style: preserve-3d;
     z-index: 1;
-    margin-top: 5%;
+    margin-top: 10%;
     border-radius: 10px;
     
  }
@@ -187,7 +186,7 @@ h2{
     flex-direction: column;
     width: 550px;
     height: 400px;
-    margin-top: -80px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -203,11 +202,27 @@ h2{
     display: flex;
     width: 80%;
     height: 40px;
-    border-radius: 5px;
-    border: 1px solid rgba(157, 157, 192, 0.829);
-    
+    border: none;
+    margin-top: 3px;
+    border-bottom: 1px solid rgba(157, 157, 192, 0.829);
     
 
+}
+#numA{
+    border: none;
+    border-bottom: 1px solid  rgba(157, 157, 192, 0.829);
+}
+#numB{
+    border: none;
+    border-bottom: 1px solid  rgba(157, 157, 192, 0.829);
+}
+#numC{
+    border: none;
+    border-bottom: 1px solid  rgba(157, 157, 192, 0.829);
+}
+#numD{
+    border: none;
+    border-bottom: 1px solid  rgba(157, 157, 192, 0.829);
 }
 .back{
     
@@ -268,10 +283,11 @@ h2{
 .num{
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgba(157, 157, 192, 0.829);
-    border-radius: 5px;
+    margin-bottom: 10px;
     text-align: center;
-    
+}
+.num input{
+    margin-bottom: 10px;
 }
 .numA :hover{
     
@@ -282,6 +298,7 @@ h2{
     text-align: center;
     height: 40px;
     cursor: pointer; 
+   
 }
 .num input:hover{
     background-color: blue;
@@ -390,11 +407,16 @@ footer h3{
      margin-bottom: 2px;
      margin-top: 20px;
 }
-
+#senha p{
+    margin-top: 40px;
+    font-size: 0.6rem;
+    margin-right: 30px;
+}
 .face{
     width: 270px;
     height: 170px;
 }
+
 #senha{
      width: 260px;
      height: 30px;
@@ -403,21 +425,16 @@ footer h3{
      margin-top: 20%;
      border-radius: 10px;
 }
-#senha p{
-     text-align: center;
-     margin-left: 50px;
-     margin-top: 20px;
 
-}
 .chip{
    width: 30px;
    height: 25px;
    top: -20px;
-   padding-top: 5px;
+   padding-top: 25px;
 }
 .visa{
     width: 40px;
-    top: 50px;
+    margin-top: 25px;
     margin-left: 15px;
     
 }
@@ -456,7 +473,7 @@ footer h3{
 }
 .mes{
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .mes p{
     font-size: 0.6rem;
@@ -478,7 +495,7 @@ footer h3{
     font-size: 0.8rem;
 }
 .numero {
-   margin-top: 2px;
+   margin-top: 20px;
    
 }
 #num1{
@@ -496,11 +513,12 @@ footer h3{
 #num4{
     font-size: 1.3rem;
     margin-top: 5px;
+    
 }
 .titulo {
     width: 180px;
     height: 40px;
-    margin-top: 25px;
+    margin-top: 5px;
 
 }
 h2{
