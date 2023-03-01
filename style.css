@@ -414,7 +414,7 @@ footer h3{
 }
 .face{
     width: 270px;
-    height: 170px;
+    height: 180px;
 }
 
 #senha{
@@ -472,7 +472,7 @@ footer h3{
    text-align: center;
 }
 .mes{
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 10px;
 }
 .mes p{
@@ -519,7 +519,7 @@ footer h3{
     width: 180px;
     height: 40px;
     margin-top: 5px;
-
+    margin-right: 5px;
 }
 h2{
     font-size: 0.5rem;
