@@ -399,8 +399,13 @@ footer h3{
      height: 30px;
      background-color: white;
      color: black;
-     margin-top: 30%;
+     margin-top: 20%;
      border-radius: 10px;
+}
+#senha p{
+     text-align: center;
+     margin-left: 50px;
+
 }
 .chip{
    width: 30px;
@@ -423,6 +428,7 @@ footer h3{
 }
 .titulo1{
     margin-left: 10px;
+    margin-top: 10px;
 }
 .cw1 input{
     width: 50px;
@@ -492,7 +498,7 @@ footer h3{
 .titulo {
     width: 180px;
     height: 40px;
-    margin-top: 15px;
+    margin-top: 25px;
 
 }
 h2{
