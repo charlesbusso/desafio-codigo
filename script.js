@@ -9,7 +9,7 @@ function capturar(){
   let capturandoF = "";
   let capturandoG = "";
   let capturandoH = "";
-  
+  let captado = document.querySelector('mum1');
 
 
 
@@ -32,29 +32,14 @@ function capturar(){
     
    
 
-}
-/*function rotacao(){
-   let girar = "";
-   let cartao = document.getElementById('cartao');
-   if(girar === ""){
-    cartao = 0;
-   }else if(girar == value){
-    cartao.style.rotate = "360";
-   }
-}*/
-
-
-
-
-
 let cartao = document.getElementById('card');
 let cardi = document.getElementById('cw3');
   cardi.addEventListener('click',(e) =>{
   cartao.classList.toggle("flip");
   
 
-
-
 });
 
-window.addEventListener("load", capturar);
+
+}
+
